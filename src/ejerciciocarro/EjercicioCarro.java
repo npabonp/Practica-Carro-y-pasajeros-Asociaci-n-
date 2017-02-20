@@ -39,12 +39,12 @@ public class EjercicioCarro {
         Ferrari.setOtherPassanger(pasajero2);
         Ferrari.setDriver(conductor);
     
-        System.out.println("Los pasajeros son");
+        System.out.println("- Los pasajeros son=");
         String[] nombres = Ferrari.getPassangers();
-        for(int i=0; i<nombres.length; i++){
+        for(int i=0; i<nombres.length; i++){ //el nombres.length es el arreglo que hay en carro
             System.out.println(nombres[i]);
         }
-        System.out.println("El conductor es ");
+        System.out.println("- El conductor es= ");
         System.out.println(Ferrari.getDriver().getName());
     }
     
